@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<p id="J_comments"></p>
+
+	请输入评论内容：<input type="text" name="comment" id="J_comment"/>
+	<input type="button" value="提交" id="J_submit">
+
+	<script type="text/javascript">
+	   document.getElementById("J_submit").addEventListener("click",function(){
+	      var comment = document.getElementById("J_comment").value;
+		  console.log(comment);
+	       document.getElementById("J_comments").innerHTML = comment;
+
+	   },false);
+	</script>
+</body>
+</html>
