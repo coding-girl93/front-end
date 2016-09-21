@@ -10,8 +10,8 @@
 
    用户信息配置：
 
-   - `git config --global user.name "liuyanli"`
-   - `git config --global user.email "liuyanli@weidian.com"`
+   - `git config --global user.name "liuyanli"`
+   - `git config --global user.email "liuyanli@weidian.com"`
 
 3. #### 创建私钥
 
